@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+    text-align:center;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
+    font-family: 'Quicksand', sans-serif;
+}
+header, .description{
+    color: #c0c0c0;
+    background-color: #20202080;
+    margin: 1em;
+    padding: 1em;
+    border-width: 1em;
+    border-color: #303030;
+    border-style: solid;
+    border-radius: 1em;
+}
+.picture{
+    border-width: 1em;
+    border-color: #303030;
+    border-style: solid;
+    border-radius: 1em;
+}
+.fa {
+    border-radius: 50%;
+    padding: 1em;
+    font-size: 1em;
+    width: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin: 1em;
+    color: #c0c0c0;
+    background-color: #303030;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+footer{
+    color: #a0a0a0;
+}
+textarea, input, button{
+    border-radius: 1em;
+    font-size: 1em;
+    color: #c0c0c0;
+    background-color: #303030;
+}
+textarea{
+    width: 100%;
+}
