@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+  
+/* Main Header */
+#main-header {
+      margin: 0;
+      padding: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./img/header.jpeg');
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      overflow-y: hidden;
+}
+
+#main-header .container {
+    margin-top: 30vh;
+    margin-left: 20vh;
+}
+
+#main-header h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+#main-header h2 {
+    font-size: 1.5rem;
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 400px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+/* Navigation */
+nav {
+    height: 40px;
+    width: 100%;
+    color: #eee;
+    position: fixed;
+    background: #444;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #444;
+    border-radius: 5%;
+}
+
+nav a#openup {
+    display: none;
+}
+
+/* MusiX Area */
+#musix .container {
+    text-align: center;
+    color: #252525;
+}
+
+.section {
+    padding: 2rem 0;
+}
+.section-head {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.section h3 {
+    font-size: 2rem;
+}
+
+/* Entertaiment Area */
+section#entertaiment {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./img/entertaiment.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+/*Get Apps Area*/
+
+#get-apps h2 {
+    color: #252525;
+    font-size: 2.5rem;
+}
+
+#get-apps p {
+    color: #252525;
+    font-size: 1rem;
+}
+
+/* Responsive Queries*/
+
+@media screen and (max-height: 1366px) and (max-width: 1024px) {
+    #main-header .container {
+        margin-top: 30vh;
+        margin-left: 5vh;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .hide-responsive {
+        display: none;
+    }
+
+    #get-apps h2 {
+        font-size: 2rem;
+    }
+
+
+    #main-header {
+        height: 60vh;
+    }
+
+    #main-header .container {
+        margin-top: 30vh;
+    }
+
+    #main-header h1 {
+        font-size: 2rem;
+    }
+    
+    #main-header h2 {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 1rem 0;
+    }
+    .section-head {
+        font-size: 1.6rem;
+    }
+    .section h3 {
+        font-size: 1.2rem;
+    }
+
+    nav {
+      height: auto;
+      border-bottom: 0;
+    }
+    nav ul {
+      display: none;
+      height: auto;
+    }
+    nav li {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    nav a {
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+      background: #333;
+      border-bottom: 1px solid #555;
+    }
+    nav a:hover {
+      background: #444;
+    }
+    nav a#openup:after {
+      content: "|||";
+      transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      /* IE 9 */
+      -webkit-transform: rotate(-90deg);
+      /* Safari and Chrome */
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      right: 5px;
+      top: 20px;
+    }
+    nav a#openup {
+      display: block;
+      background-color: #333;
+      width: 100%;
+      position: relative;
+    }
+}
+
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+}
+  
+.cf:after {
+    clear: both;
+}
+  
+.cf {
+    zoom: 1;
+}
+  
+  /* For IE 6/7 (trigger hasLayout) */
+  
