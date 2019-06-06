@@ -1,0 +1,134 @@
+
+#navbar-iframe {
+height:0px;
+visibility:hidden;
+display:none
+}
+body{color:#000000; font-size:13px; font-family:Verdana,Arial,Helvetica,sans-serif; margin:0px auto; background:url(http://www.themesrefinery.net/wp-content/uploads/2014/06/Elegant_Background-19.jpg); background-attachment:fixed}
+html>body #body-container{overflow:auto}
+* html #content{margin:5px 0 8px 2px}
+a, a:visited{color:#404040; text-decoration:underline}
+a:hover{text-decoration:none; color:#307396}
+img{border:0}
+.top{margin:0px auto -3px; width:980px}
+.bottom{margin:0px auto; padding-top:30px; width:980px; background:#F5F5F5 url(http://i254.photobucket.com/albums/hh92/eblogtemplates/passionduoblue/bottom-blue.gif) center bottom no-repeat; height:30px; color:#17394B; font-size:13px; text-align:center}
+#outer-wrapper{width:980px; margin:0px auto; padding:0; background:#F5F5F5}
+#header-inner{padding:0px; margin:0px; height:70px; float:left; background-color:#FFFFFF}
+#header-inner .headline{margin:0px; width:502px; height:70px; float:left}
+#blogdesc{color:#3D99C8; margin:0px 0px 0px 17px; font:normal normal 110% Arial, Helvetica, sans-serif; letter-spacing:-1px; text-align:left; width:485px}
+#blogtitle{line-height:50px; letter-spacing:-1px; margin:0px 0px 0px 17px; font:normal normal 300% Arial, Helvetica, sans-serif; padding:0px; width:485px; float:left}
+#blogtitle a{border-bottom:none; color:#005580; text-decoration:none}
+#blogtitle a:hover{border-bottom:1px solid #005580; color:#005580}
+#banner-head{height:70px; background-color:#FFFFFF}
+#header-wrapper{}
+#blog-pager-newer-link{float:left}
+#blog-pager-older-link{float:right}
+#blog-pager{padding:0px 15px 0px; text-align:center}
+.blog-pager a{color:#404040}
+.blog-pager a:hover{color:#307396}
+.feed-links a{color:#404040}
+.feed-links a:hover{color:#307396}
+#backlinks-container{color:#000; list-style-type:none; margin:1.5em 0pt 0pt; padding:0pt}
+/*-- (Menu/Nav) --*/
+*html .TopMenu{margin:0 0 0 1px}
+.TopMenu{margin:0px 3px 0px 3px; padding:0; height:33px; float:left; width:974px; border-bottom:2px solid #3D99C8; border-top:2px solid #1F4C63; background:url(http://s254.photobucket.com/albums/hh92/eblogtemplates/passionduoblue/link_pat.jpg) left top repeat-x}
+.TopMenu ul{float:left; padding:0px; margin:0px; height:33px; display:inline}
+.TopMenu li{padding:0px 1px 0px 0px; margin:0px; list-style-type:none; display:inline; font-size:16px; text-transform:capitalize; float:left; background:url(http://s254.photobucket.com/albums/hh92/eblogtemplates/passionduoblue/link_split.jpg) right top no-repeat}
+.TopMenu li a{color:white; line-height:33px; padding:7px 20px 8px 20px; text-decoration:none}
+.TopMenu li a:visited{color:white; text-decoration:none}
+.TopMenu li a:hover{color:white;  background:url(http://s254.photobucket.com/albums/hh92/eblogtemplates/passionduoblue/link_hover.jpg) left top repeat-x; text-decoration:none}
+.rss{float:right}
+/*-- (Search) --*/
+#search{background:#F7F7F7; border:1px solid #b3b3b3; float:right; height:25px; margin:0 15px 0 0; width:280px}
+* html #search{margin-right:8px}
+#search input{font-family:Verdana,Arial,Helvetica,sans-serif; background:transparent; border:0; color:#000; float:left; font-size:13px; margin:4px 0 0; padding:0px 2px 2px 10px; width:288px}
+.contentwrapper{margin:0px auto; padding:0pt}
+#content{float:left; margin:5px 0pt 0px 3px; padding:0px; width:610px}
+/*-- (Post) --*/
+.entrytitle h2{color:#BF0000; font-size:21px; font-weight:normal; margin:0pt 0pt 5px; padding:0pt}
+.entrytitle h2 a{color:#BF0000; text-decoration:none}
+.entrytitle h2 a:hover{color:#FF0000; text-decoration:none}
+.entrytitle .meta{color:#404040; float:left; font-size:11px; margin:0pt 0pt 15px; width:295px}
+.postinfo{color:#404040; float:left; font-size:12px; margin:0pt 0pt 10px; text-align:right; width:290px}
+#koment{padding-top:5px}
+#koment a{color:#404040; font-weight:bold; text-decoration:none}
+#koment a:hover{color:#307396; font-weight:bold; text-decoration:none}
+.entrytitle .meta a{color:#404040}
+.entrytitle .meta a:hover{color:#307396}
+.post{background:#FFFFFF none repeat scroll 0% 50%; border:1px solid #ECECEC; margin:0px 0px 7px; padding:10px}
+.post a, .commentlist a, .navigation a{color:#404040}
+.post a:hover, .commentlist a:hover, .navigation a:hover{color:#307396}
+.post blockquote{margin:0 0 20px 0; padding:0}
+blockquote{margin:0 40px 0 30px; padding:0 0 0 10px; font-style:italic; color:#BF0000; border-left:2px solid #BF0000}
+/*-- (Sidebar) --*/
+#sidebar-right{color:#555; float:right; font-size:12px; line-height:17px; list-style-type:none; margin:5px 1px 0pt 0pt; padding:0px 0px 20px; position:relative; text-align:left; width:360px}
+#sidebar-right .widget{background:#FFFFFF none repeat scroll 0%; border:1px solid #ECECEC; list-style-type:none; margin:5px 0pt 5px 0px; padding:0pt}
+#lsidebar{float:left; margin-right:5px; width:175px}
+#rsidebar{float:left; width:175px}
+#sidebar-right .widget h2, #sidebar-right h2{border-bottom:1px solid #307396; color:#BF0000; font-size:17px; font-weight:normal; margin:5px 7px 0pt; padding:0pt 0pt 5px}
+#sidebar-right a{color:#17394B; font-size:13px; text-decoration:none}
+#sidebar-right a:hover{color:#17394B; text-decoration:none; border-bottom:1px dotted #17394B}
+#sidebar-right ul{border:medium none; margin:7px; padding:0pt}
+#sidebar-right ul li{background:transparent url(http://s254.photobucket.com/albums/hh92/eblogtemplates/passionduoblue/arrow.gif) no-repeat scroll 0pt 3px; display:block; list-style-type:none; margin:0pt 0pt 5px; padding:0pt 0pt 0pt 10px}
+.BlogArchive #ArchiveList ul li.archivedate{background:transparent url(http://s254.photobucket.com/albums/hh92/eblogtemplates/passionduoblue/arrow.gif) no-repeat scroll 7px 3px; display:block; list-style-type:none; margin:5pt 0pt 5px; padding:0pt 0pt 0pt 32px}
+.ads-sidebar{float:left; margin:0pt; padding:0pt}
+#sidebar-right ul li ul{list-style-type:square; margin-left:1.5em; padding:0; border:0}
+#sidebar-right ul li ul li{border:0}
+#sidebar-right .ads-sidebar ul{background:#FFFFFF none repeat scroll 0% 50%; border:1px solid #ECECEC; float:left; margin:0pt; padding:10px 0pt 10px 35px; width:318px}
+#sidebar-right .ads-sidebar ul li{display:inline; list-style-type:none; margin:0pt; padding:0pt}
+#sidebar-right .ads-sidebar ul li a:hover{border-bottom:none; list-style-type:none}
+.ads-sidebar ul{margin:0px; padding:0px}
+.ads-sidebar ul li a{float:left}
+.ads-sidebar img{margin:0px 0px 5px 8px; border:1px solid #CCC; padding:2px}
+.ads-sidebar img:hover{border:1px solid #999}
+.search{background:#FFFFFF none repeat scroll 0%; border:1px solid #ECECEC; color:#FF6000; float:left; margin:5px 0pt 0pt; padding:10px 0px 10px 45px; width:308px}
+#searchform{margin:0px; padding:0px}
+#s{width:250px; height:20px; margin:0; padding:5px 5px 3px 7px; border:1px solid #83B134; background:#FFFFFF; color:#122b3b; font-size:14px; font-family:Verdana,Arial,Helvetica,sans-serif}
+.navigation{display:block; text-align:center; margin-top:10px; margin-bottom:60px}
+.comments{margin:5px 0pt 15px; padding:20px 10px; background:#FFFFFF none repeat scroll 0% 50%; border:1px solid #ECECEC}
+.comments a{color:#404040}
+.commentlist{list-style-type:none; margin:10px 0pt 0pt; padding:0pt}
+.commenttext{font-size:11px}
+.commentlist li{margin-bottom:2em; padding:0.5em 1em}
+.alt1{border:1px solid #F2F0E8; padding:0.5em}
+.comment-footer a{color:#404040}
+span.delete-comment-icon{text-decoration:none}
+/*-- (Footer) --*/
+#footer{background:#F5F5F5 url(http://i254.photobucket.com/albums/hh92/eblogtemplates/passionduoblue/bottom-blue.gif) no-repeat scroll center bottom; color:#17394B; font-size:11px; height:30px; margin:0px auto; padding-top:30px; padding-bottom:15px; text-align:center; width:980px}
+#ga-ads{background:#FFFFFF none repeat scroll 0% 50%; border:1px solid #ECECEC; margin:0px 0px 7px; padding:10px 10px 0px}
+.clear{clear:both}
+/*-- (Sidebar) --*/
+.widget-content{}
+.widget{margin:0pt; padding:0pt}
+.comment-author{padding:5px 0px 0px 15px; margin:0px}
+.comment-body{padding:0px 15px 20px 15px; margin:0px}
+.comment-footer{padding:0px 0px 0px 15px; margin:0px}
+.post-feeds{padding:30px 15px 0px}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #ga-ads{display:none;}
+body#layout .ads-sidebar{display:none;}
+body#layout .search{display:none;}
+body#layout #footer{display:none;}
+body#layout .top{display:none;}
+body#layout #sidebar, body#layout #main,
+body#layout #main-wrapper,
+body#layout #outer-wrapper,
+body#layout #sidebar-wrapper
+body#layout #header
+body#layout .contentwrapper{padding:0}
+body#layout .TopMenu{float:left; height:auto; width:740px; padding:0; margin:0px;}
+body#layout #outer-wrapper{width:740px; margin-left:auto; margin-right:auto}
+body#layout #header{width:740px; margin-left:auto; margin-right:auto}
+body#layout #LinkList1{padding:0px 3px; margin-left:auto; margin-right:auto}
+body#layout #HTML3{padding:0px 3px; margin-left:auto; margin-right:auto}
+body#layout #lsidebar{width:50%; padding:0px 3px; float:left; margin-left:auto; margin-right:auto}
+body#layout #rsidebar{width:50%; padding:0px 3px; float:right; margin-left:auto; margin-right:auto}
+body#layout #main{margin-left:0px; margin-right:0px; width:370px; padding:0 0 0 0px}
+body#layout #content{margin-left:0px; margin-right:0px; width:368px; padding:0 0 0 0px}
+body#layout #sidebar-right{margin-left:0px; margin-right:0px; width:371px; padding:0 0 0 0px}
+body#layout #header-tabs{float:left; width:740px; padding:0; margin-left:auto; margin-right:auto}
+body#layout .contentwrapper{width:740px; margin-left:auto; margin-right:auto}
+body#layout #header-in{margin-left:0px; margin-right:0px; width:740px}
+body#layout #main-wrapper{margin-left:0px; margin-right:0px; width:500px; padding:0 0 0 0}
+body#layout #sidebar-wrapper{margin-left:0px; margin-right:0px; width:240px; padding:0 0 0 0px}
+/* body#layout #container-bottom{width:740px; margin:0 auto; padding-top:15px; body#layout .container-top{width:740px; margin:0 auto; padding-top:15px} */
